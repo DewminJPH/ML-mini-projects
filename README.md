@@ -10,3 +10,8 @@ Fake News Predictor
   - News Data -> Data Preprocessing -> Train Test Split -> Logistic Regression model -> Evaluate the model using the New data
   - Stemming used here
   - convert all the text into numbers using 'TfidfVectorizer()'
+
+Loan Status Predictor
+  - this help to automate the loan approval process when considering the user given data. So output is eligibility of that person for getting the loan based on the given data
+  - Data -> Data preporocessing -> Train Test Split -> Feed the training data using SVM model -> evaluation
+  - This is a supervised machine learning model
