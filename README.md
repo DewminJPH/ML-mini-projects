@@ -46,3 +46,7 @@
   **Solutions**
   - I switched to the Random forest algorithm. Because the linear regression tries to draw a straight line through data that naturally curves(like car depreciation). Random forest builds multiple "decision trees" to map these curves accurately
   - By extracting the Brand, the model recognizes that a "Toyota" and a "Maruti" have different baseline values, which was previously lost when I dropped the Brand "name" column
+
+## Gold Price Prediction
+  - Gold Price data -> Data Preprocessing -> Data Analysis -> Train Test Split -> Random Forest Regressor
+  - metrics for evaluate the model
