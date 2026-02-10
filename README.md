@@ -29,4 +29,20 @@
   - **Random forest algorithm**
       Random forest is the ensemble model. That means it uses more than two or three models in combination for a prediction.
         multiple decision tree models
-    
+
+## Car Price Prediction
+  Problem Statement
+    predict the prices of used cars.There are several information such as car brand, year, sold price, present price and etc.
+  
+  - This is a regression problem
+  - Car Data -> Data pre processing -> train test split -> **linear & lasso regression model** -> model evaluation
+  
+  **Alert**
+  - The model is underperforming. There are few mistakes I have done. 
+  1. I have dropped the "Brand Name" column. It is more important because the brand name can do a big affect to the selling price.
+  2. I have used Label Encoding which means I assigned numbers to fuel and seller_type manually by using .replace(). That confuses the Linear Regression model because it think 0 < 1< 2 like that.
+  3. Car prices are often "right-skewed"(many low-priced cars and a few very expensive luxury cars) Linear Regression assumes a normal distribution. To avoid that I have to apply log transformation to selling_price using np.log1p().
+
+  **Solutions**
+  - I switched to the Random forest algorithm. Because the linear regression tries to draw a straight line through data that naturally curves(like car depreciation). Random forest builds multiple "decision trees" to map these curves accurately
+  - By extracting the Brand, the model recognizes that a "Toyota" and a "Maruti" have different baseline values, which was previously lost when I dropped the Brand "name" column
