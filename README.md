@@ -54,3 +54,13 @@
 ## Heart Disease Prediction
   - This will predict whether a person has heart disease or not
   - Heart Data -> Data Preprocessing -> Train Test Split -> Logistic Regression Model(since this is a binary classification problem) -> Model evaluation
+
+## Credit Card Fraud Detection
+  - Credit Card Data -> Data Preprocessing -> Data Analysis -> Train Test Split -> Logistic Regression Model -> Model Evaluation
+  - This dataset is highly unbalanced dataset, that means the target variable has two classes but they are not equally distributed. one class has like 99% data. So the dataset is highly unbalanced.
+
+  **Solution**
+  - split the target classes into two new variables
+  - then get a eqauivalent portion of dataset from the class who has the largest dataset. It is selected randomlhy
+  - then merge that selected class rows and previous less class rows, and create a new dataset.
+  - then that newdataset is balanced.
