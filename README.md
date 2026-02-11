@@ -50,3 +50,7 @@
 ## Gold Price Prediction
   - Gold Price data -> Data Preprocessing -> Data Analysis -> Train Test Split -> Random Forest Regressor
   - metrics for evaluate the model
+
+## Heart Disease Prediction
+  - This will predict whether a person has heart disease or not
+  - Heart Data -> Data Preprocessing -> Train Test Split -> Logistic Regression Model(since this is a binary classification problem) -> Model evaluation
