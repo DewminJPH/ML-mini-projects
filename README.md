@@ -64,3 +64,10 @@
   - then get a eqauivalent portion of dataset from the class who has the largest dataset. It is selected randomlhy
   - then merge that selected class rows and previous less class rows, and create a new dataset.
   - then that newdataset is balanced.
+
+
+## Medical Insuarnce Cost Prediction
+  - Insurace Cost Data -> Data analysis -> Data preprocessing -> Train Test Split -> Linear Regression model -> model evaluation
+  - In this case target column is charges. so it is not classifcation problem. It's output gives continuous numbers. so this will use LinearRegression model
+  - I have encoded the categorical data columns.
+  
