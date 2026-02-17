@@ -70,4 +70,22 @@
   - Insurace Cost Data -> Data analysis -> Data preprocessing -> Train Test Split -> Linear Regression model -> model evaluation
   - In this case target column is charges. so it is not classifcation problem. It's output gives continuous numbers. so this will use LinearRegression model
   - I have encoded the categorical data columns.
-  
+
+## Big Mart Sales Prediction
+  - this will predict the sales that we are expect.
+  - If we predict the sales revenue we can tell the company what are the brands, what are the products that sells most and other such kind of things. Then we can make decision based on this.
+  - This is a regression based machine learning project.
+  - Big Mart Sales Data -> Data preprocessing -> Data Analysis -> Train Test Split -> XGBoost Regressor model -> Model Evaluation
+  - In this data set some columns has missing values. So we have to fill these values. That called as the *Data Imputation*.
+  There are 2 methods we have done here.
+  1. Using the mean value of that column
+  2. Using the mode value of that column
+
+  - Here we have used lambda function:   
+      if we want to create a function in python we use "def label()". Then that function we can use multiple times.
+
+      But if we want to use a function for once then we use the 'Lambda' function.
+  - after plotting some features with graph, I have seen the Item_Visibility column is skewed. That means the values of that column is distributed to one side. 
+  - difference between countplot and distplot provided by seaborn
+    - countplot : pecialized bar chart for Categorical Data.It simply counts the number of occurrences of each unique value in a specific column
+    - distplot  : used for Numerical Data. It shows the distribution of a continuous variable, helping to see the "shape" of the dataset. nowadays histplot used as distplot
