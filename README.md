@@ -98,8 +98,10 @@
     - WCSS means Within Cluster Sum of Square.
     - Each cluster has own centroid and the datapoints should be closer to the corresponding to the centroid as much as possible. Thats how we are selecting the number of how many clusters should be there. 
     - So we need to find the WCSS values and generate the elbow graph then using it we can find the suitable k value.
+![image alt](https://github.com/DewminJPH/ML-mini-projects/blob/66f26830b9bb91f9fe35dcd2a68af3471905981d/Customer%20Segmentation/elbow_graph.png)
 
   - After get the k number then we split the dataset into those clusters and give them a number for their corresponding cluster
+
 
 ## Parkinson's Disease Detection
   - This project is under the health care sector and this is useful for detect the patient who are pakinson's disease or not early. This is very valuable project.
@@ -110,3 +112,5 @@
   - For model training I have used Support Vector Machine. But this method has two types. 
     1. SVC : Support Vector Classifier(I have used thisone for model training) -> use to classify
     2. SVR : Support Vector Regressor -> use to get a certain value
+
+  
