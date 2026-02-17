@@ -100,4 +100,13 @@
     - So we need to find the WCSS values and generate the elbow graph then using it we can find the suitable k value.
 
   - After get the k number then we split the dataset into those clusters and give them a number for their corresponding cluster
-  
+
+## Parkinson's Disease Detection
+  - This project is under the health care sector and this is useful for detect the patient who are pakinson's disease or not early. This is very valuable project.
+  - Parkinson's disease is a progressive nervous system disorder that affects movement leading to shaking, stiffness and difficulty with walking, balance and coordination. Parkinson's symptoms usually begin gradually and get worse over time.
+  - Since this project has only the two output, this problem is a classification problem.
+  - Parkinson's Data -> Data Pre Processing -> Train Test Split -> Support Vector Machine Classifier -> Model Evaluation
+  - I have satandaridize the dataset using StandardScaler
+  - For model training I have used Support Vector Machine. But this method has two types. 
+    1. SVC : Support Vector Classifier(I have used thisone for model training) -> use to classify
+    2. SVR : Support Vector Regressor -> use to get a certain value
