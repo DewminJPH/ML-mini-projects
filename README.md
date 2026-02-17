@@ -98,6 +98,6 @@
     - WCSS means Within Cluster Sum of Square.
     - Each cluster has own centroid and the datapoints should be closer to the corresponding to the centroid as much as possible. Thats how we are selecting the number of how many clusters should be there. 
     - So we need to find the WCSS values and generate the elbow graph then using it we can find the suitable k value.
-
+!(https://github.com/DewminJPH/ML-mini-projects/blob/66f26830b9bb91f9fe35dcd2a68af3471905981d/Customer%20Segmentation/elbow_graph.png)
   - After get the k number then we split the dataset into those clusters and give them a number for their corresponding cluster
   
