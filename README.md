@@ -89,3 +89,15 @@
   - difference between countplot and distplot provided by seaborn
     - countplot : pecialized bar chart for Categorical Data.It simply counts the number of occurrences of each unique value in a specific column
     - distplot  : used for Numerical Data. It shows the distribution of a continuous variable, helping to see the "shape" of the dataset. nowadays histplot used as distplot
+
+## Customer Segmentation
+  - In this project I will try to group customers based on their spending patterns, and purchase behavior.
+  - In here I have used K-means clustering which is a unsupervised learning method.
+  - Customer Data -> Data preprocessing -> Data Analysis -> Choose the Optimum Number of Cluster (WCSS) -> K-Means Clustering Algorithm -> Visualize the Clusters 
+  - Here we should select a suitable number of the clusters which is very hard to select by manually looking at the dataset. So we can use WCSS for choose suitable number.
+    - WCSS means Within Cluster Sum of Square.
+    - Each cluster has own centroid and the datapoints should be closer to the corresponding to the centroid as much as possible. Thats how we are selecting the number of how many clusters should be there. 
+    - So we need to find the WCSS values and generate the elbow graph then using it we can find the suitable k value.
+
+  - After get the k number then we split the dataset into those clusters and give them a number for their corresponding cluster
+  
