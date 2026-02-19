@@ -113,6 +113,12 @@
     1. SVC : Support Vector Classifier(I have used thisone for model training) -> use to classify
     2. SVR : Support Vector Regressor -> use to get a certain value
 
-## LLM
+## Titanic Survival Prediction
+  - Titanic incident is about the ship sinking due to an accident with the iceberg. So in this problem we predict the person who is survived or not survived. 
+  - Its a classifcation problem.
+  - Data -> Data Preprocessing -> Data Analysis -> Train Test Split -> Logistic Regression Model -> Model Evaluation
+  - Logistic Regression model works well in binary classification problem
+  - In the dataset there are 3 columns which has null values included. So I have to handle those missing values.
+  - But among of those 3 there is one column, which most of values are null. So I decided to drop that column from the dataset.
 
   
