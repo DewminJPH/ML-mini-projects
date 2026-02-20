@@ -121,4 +121,10 @@
   - In the dataset there are 3 columns which has null values included. So I have to handle those missing values.
   - But among of those 3 there is one column, which most of values are null. So I decided to drop that column from the dataset.
 
+## Calories Burnt Predictor
+  - This predictor will predict how much calories the person will be burning when doing the exercise.
+  - Data -> Data Pre Processing -> Data Analysisi -> Train Test Split -> Model Training(XGBoostRegressor) -> Model Evaluation
+  - Here we use two dataset files and merge them into one. 
+  - To evaluate the model performance, I have used the Means Absolute Error method.
+  - If the mean absolute error is low as much as possible that means the model is good.
   
