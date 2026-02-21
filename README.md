@@ -121,10 +121,22 @@
   - In the dataset there are 3 columns which has null values included. So I have to handle those missing values.
   - But among of those 3 there is one column, which most of values are null. So I decided to drop that column from the dataset.
 
-## Calories Burnt Predictor
+## Calories Burnt Prediction
   - This predictor will predict how much calories the person will be burning when doing the exercise.
   - Data -> Data Pre Processing -> Data Analysisi -> Train Test Split -> Model Training(XGBoostRegressor) -> Model Evaluation
   - Here we use two dataset files and merge them into one. 
   - To evaluate the model performance, I have used the Means Absolute Error method.
   - If the mean absolute error is low as much as possible that means the model is good.
+
+## Mahajana Sampatha Lottery Prediction
+  - This will help to predict the what will be the next number of Mahajana Samapatha lottery
+  - Lottery Data -> Data Pre Processing -> Model Training(RandomForestClassification) -> Model Evaluation
+  - Here I have added the data into excel sheet is not the correct order. It included Present to past. But I have to make them correct order first. 
+  - Then after I used to encoding methods for Letters and the Day columns, because the model cannot understand the text and strings.
+  - Lagging: Transformed the data so that for every draw, the input "features" were the results of the previous 5 draws. This allows the model to look for trends or repeating sequences.
+  - Here I uded for RandomForestClassification because, 
+    - Lottery data doesn't follow a straight line(linear). Random Forests use "Decision Trees" which are excellent at finding complex, non-linear relationships.
+    - Lottery data is extremely "noisy". Random Forests reduce the risk of the model over-memorizing the past (overfitting) by averaging the results of many different trees.
+    - Since lottery numbers are discrete categories ($0, 1, 2, \dots, 9$) and not continuous measurements, a Classifier is more appropriate than a Regressor. Random Forest handles these multi-class categories very efficiently.
+
   
