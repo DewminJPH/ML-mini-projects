@@ -66,10 +66,4 @@ A Streamlit-based web application that allows users to train machine learning mo
 - pandas
 - numpy
 
-## Contributing
 
-Feel free to contribute by adding more models, preprocessing techniques, or improving the UI.
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
